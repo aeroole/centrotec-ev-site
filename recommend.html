@@ -71,7 +71,7 @@
   .specbox b{color:var(--navy);}
   .imgcard{border-radius:14px; overflow:hidden; box-shadow:0 16px 40px rgba(14,42,71,0.14);}
   ul.plain{margin:0; padding-left:20px; font-size:15px; line-height:1.8; color:var(--ink-soft);}
-  @media (max-width:860px){
+  @media (max-width:860px){ .footer-grid{grid-template-columns:1fr !important; text-align:center; gap:28px !important;}
     .row{flex-direction:column !important;}
     .wrap{padding-inline:20px;}
     .pd{padding-block:48px;}
@@ -434,15 +434,41 @@
   </div>
 </section>
 
-<footer id="contact" style="width:100%; background:var(--navy-deep); padding-block:64px;">
-  <div class="wrap" style="text-align:center; display:flex; flex-direction:column; align-items:center; gap:20px;">
-    <h2 style="color:#fff; font-size:26px; max-width:560px; line-height:1.4;">ปรึกษางานฉนวนอุตสาหกรรมกับทีม Centrotec</h2>
-    <div style="display:flex; gap:14px; flex-wrap:wrap; justify-content:center;">
+<section id="contact" style="width:100%; background:var(--navy); padding-block:56px;">
+  <div class="wrap" style="text-align:center;">
+    <h2 style="color:#fff; font-size:26px; max-width:560px; margin-inline:auto; line-height:1.4;">ปรึกษางานฉนวนอุตสาหกรรมกับทีม Centrotec</h2>
+    <div style="display:flex; gap:14px; flex-wrap:wrap; justify-content:center; margin-top:22px;">
       <a href="tel:+66818991799" class="btn btn-primary">โทร +66 81 899 1799</a>
       <a href="tel:+6636222822" class="btn btn-ghost">โทร +66 36 222 822</a>
     </div>
-    <p style="color:#9FB0C2; font-size:14px;">Email: kittipat.centrotec@gmail.com · Fax: +66 36 221 181</p>
-    <p style="color:#5F7488; font-size:13px; margin-top:16px;">Centrotec Co., Ltd. · centrotec.co.th</p>
+  </div>
+</section>
+<footer style="width:100%; background:var(--navy-deep); padding-block:56px;">
+  <div class="wrap">
+    <div class="footer-grid" style="display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:36px;">
+      <div>
+        <h3 style="color:#fff; font-size:22px; font-weight:700; margin-bottom:16px;">ติดต่อเรา</h3>
+        <p style="color:#fff; font-size:15px; line-height:1.8; margin:0;">Email: <a href="mailto:kittipat.centrotec@gmail.com" style="color:#fff; text-decoration:underline;">kittipat.centrotec@gmail.com</a></p>
+        <p style="color:#fff; font-size:15px; line-height:1.8; margin:0;">Tel: <a href="tel:+6636222822" style="color:#fff; text-decoration:underline;">+66 36 222 822</a></p>
+        <p style="color:#fff; font-size:15px; line-height:1.8; margin:0;">Tel: <a href="tel:+66818991799" style="color:#fff; text-decoration:underline;">+66 81 899 1799</a></p>
+        <p style="color:#fff; font-size:15px; line-height:1.8; margin:0;">Fax: +66 36 221 181</p>
+      </div>
+      <div>
+        <h3 style="color:#fff; font-size:22px; font-weight:700; margin-bottom:16px;">บริการของเรา</h3>
+        <p style="margin:0 0 10px;"><a href="recommend.html" style="color:#C9D4DF; font-size:15px;">แนะนำ</a></p>
+        <p style="margin:0 0 10px;"><a href="https://www.centrotec.co.th/products" style="color:#C9D4DF; font-size:15px;">สินค้าบริการ</a></p>
+        <p style="margin:0 0 10px;"><a href="projects.html" style="color:#C9D4DF; font-size:15px;">ผลงานของเรา</a></p>
+        <p style="margin:0;"><a href="https://www.centrotec.co.th/questions-answers" style="color:#C9D4DF; font-size:15px;">ถาม-ตอบ</a></p>
+      </div>
+      <div>
+        <p style="color:#fff; font-size:15px; line-height:1.8; margin:0;">237 / 51-52 ถ. พหลโยธิน ต.ปากเพรียว</p>
+        <p style="color:#fff; font-size:15px; line-height:1.8; margin:0;">อ. เมืองสระบุรี จ. สระบุรี 18000</p>
+      </div>
+    </div>
+    <div style="border-top:1px solid rgba(255,255,255,0.15); margin-top:36px; padding-top:20px; display:flex; flex-wrap:wrap; gap:12px; justify-content:space-between; align-items:center;">
+      <p style="margin:0;"><a href="https://www.centrotec.co.th/privacy-policy" style="color:#fff; font-size:14px;">นโยบายความเป็นส่วนตัว</a></p>
+      <p style="color:#fff; font-size:14px; margin:0; letter-spacing:0.04em;">© 2026 บริษัท เซนโทรเทค จำกัด</p>
+    </div>
   </div>
 </footer>
 
